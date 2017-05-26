@@ -1,0 +1,14 @@
+{
+  "public": {},
+  "private": {},
+  "loggly": {
+    "token": "2c887fce-7e90-44b3-accb-79c96d5d3255",
+    "subdomain": "meteordemo",
+    "auth": {
+      "username": "my-username",
+      "password": "my-password"
+    },
+    "tags": ["global-tag", "meteor", "logger", "miktam-loggly"],
+    "json": true
+  }
+}
