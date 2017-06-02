@@ -1,38 +1,6 @@
 # meteor-loggly-demos  
 
-Every few years, it's useful to survey the package ecosystem and figure out the state of devops logging.  Logging in of itself isn't particularly challenging; the industry has been doing it for 50 years.  The challenges are well know.  It's mostly just a matter of new operating systems, new businesses, maybe a new protocol or file format.  Typically, it's not something that needs to be done more than once every two years; and this is probably the third time I've done it for the Meteor ecosystem.  
-
-Since the last time I took a close look at the logging landscape, Meteor has seen a lot of changes...  ES2015 has introduced new syntax, Meteor 1.2 introduced NPM packages, and Meteor 1.3 introduced import statements.  So a lot of the old packages break with current Meteor apps; and old tutorials are out of date.  
-
-
-### Methodology  
-
-After talking with some other devs, reading tutorials, and searching the Meteor forums, I narrowed the scope of my survey to the following 7 packages.   
-
-**npm packages**  
-```json
-{
-  "dependencies": {
-    "loggly": "^1.1.1",
-    "winston": "^2.3.1",
-    "winston-loggly-bulk": "^1.4.2"
-  }
-}
-```
-
-**npm packages** 
-```sh
-miktam:loggly 
-infinitedg:winston-loggly
-infinitedg:winston
-clinical:winston-browser-logging
-```
-
-I actually started off with the `brentjanderson:meteor-winston-client` package, but it needed a bit of rewrite, so it eventually became `clinical:winston-browser-logging`.  Otherwise, it was simply a matter of following tutorials and READMES, creating some demos, and figuring out which ones still worked and were up to date. 
-
-
-### Reference Builds    
-There were two main questions that needed to be resolved:  NPM or Atmosphere?  And just Loggly or should the entire Winston logging layer be included?  Here are the results of my little experiment.
+The following represents a survey of the state of logging packages in the Meteor ecosystem.
 
 
 #### miktam-loggly  
