@@ -1,6 +1,6 @@
 # meteor-loggly-demos  
 
-The following represents a survey of the state of logging packages in the Meteor ecosystem.
+The following represents a survey of the state of logging packages in the Meteor ecosystem (June, 2017)
 
 
 #### miktam-loggly  
